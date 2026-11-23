@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets : ne jamais envoyer sur GitHub
+.env
+.env.*
+!.env.example
+
+# PDF déposés dans l'application : on garde seulement le dossier vide
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.pdf
+
+# Node
+node_modules/
+dist/
+
+# Éditeur et extensions
+.vscode/
+.idea/
+.qodo/
+.DS_Store
